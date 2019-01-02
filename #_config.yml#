@@ -1,0 +1,55 @@
+# Site settings
+title: HE-YANG LONG
+description: Heyang Long's homepage
+url: https://newtanc.github.io
+permalink: /:title
+
+# User settings
+username: Heyang Long
+author-pic: face.jpg # your photo
+user_description: Senior physics undergraduate student from <a target="_blank" href="https://www.nju.edu.cn/EN/">Nanjing University</a>, China. 2018 Fall Physics PhD student at <a target="_blank" href="https://physics.osu.edu/">Ohio State University</a>. Interested in theoretical high energy physics, cosmology and dark matter. Lakers fan. A lover of hiking, poem and photography. My favorite food is <a target="_blank" href="http://image.baidu.com/search/index?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=%E5%9B%9B%E5%B7%9D%E7%81%AB%E9%94%85">Sichuan hot pot</a>. 
+user_title: Physics Student
+email: hylong@smail.nju.edu.cn
+wechat_username: newtanc
+github_username:  newtanc
+facebook_usermame: heyanglong
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Google-analytics
+#google-analytics:
+#  id: ""
+
+# exclude: ['package.json', 'src' , 'node_modules']
+
+mathjax:   true  # enables support for mathjax - set to 'false' to disable
+
+include:   [ "robots.txt" ]
+exclude:   [ 'package.json', 'src' , 'node_modules',"LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+plugins_dir:
+  - jekyll-sitemap
+
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"

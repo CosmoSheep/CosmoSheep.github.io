@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		{% include blog-head.html %}
+	</head>
+
+	<body>
+
+		{% include blog-header.html %}
+
+		<main>
+			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
+		</main>
+
+		{% include blog-footer.html %}
+
+	</body>
+
+</html>

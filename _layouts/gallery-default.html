@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include gallery-head.html %}
+
+<head>
+{% if page.url == "/404.html" %}<meta http-equiv="refresh" content="5; url={{ site.baseurl }}/journal" />{% endif %}
+</head>
+
+<body>
+
+    {% include gallery-nav.html %}
+
+    {{ content }}
+
+   {% include gallery-search.html %}   
+
+<!--   {% include gallery-newsletter.html %}   -->
+
+   {% include gallery-footer.html %}   
+
+   {% include gallery-Scroll_to_Top.html %}  
+
+</body>
+
+</html>

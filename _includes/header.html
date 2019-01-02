@@ -1,0 +1,26 @@
+<div id="particles-js">
+  <div class="content">
+    <div class="author">
+        <div class="author_image">
+          <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" style="border-radius:50%;" alt="Author image">
+        </div>
+        <div class="author_info">
+          <h1 class="author_title">{% if site.username %}{{site.username}}{% else %}Heyang Long{% endif %}</h1>
+        </div>
+        <div class="author_info">
+          <p class="author_description">{% if site.user_description %}{{site.user_description}}{% else %} {% endif %}</p>
+        </div>
+    </div>
+      <a class="link" href="/blog" >My Blog</a>
+      <a class="link" href="#research" >Research</a>
+      <a class="link" href="/gallery" >Gallery</a>
+      <!--<a class="link" href="/assets/file/HeyangLong.pdf" >CV</a>-->
+      <!--<a class="link" href="#physics_note" data-scroll>Physics Note</a>  -->
+        <div class="icons-header">
+          <a aria-label="Send email" href="mailto:{{site.email}}" title="Send me an email"><i class="icon fa fa-envelope"></i></a>
+          <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github_username}}" title="Show my projects"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+          <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/{{site.facebook_username}}" title="Follow me on facebook"><i class="icon fa fa-facebook-square" aria-hidden="true"></i></a>
+        </div>
+  </div>
+  <a class="down" href="#research" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a> 
+</div>
