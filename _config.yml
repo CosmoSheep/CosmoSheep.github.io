@@ -37,9 +37,9 @@ plugins_dir:
   - jekyll-sitemap
 
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "/gallery/"  
+  - BLOG: "/blog/"
+#  - ABOUT: "https://sunbliss.github.io/photorama/about/"
 
 defaults:
   -
