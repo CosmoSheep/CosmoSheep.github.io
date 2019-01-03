@@ -1,6 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-family: 'Montserrat','Amerian Typewriter', sans-serif;
+  font-size: 15px;
   color: #eee;
   background-color: #000;
 }
@@ -17,11 +18,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'Georgia', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 a {
-  color: #760824;
+  color: #4b5664;
   transition: color .4s;
   text-decorarion: none;
 }
@@ -53,16 +54,16 @@ hr.small {
   top: 0;
   left: 0;
   width: 100%;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 400;
 }
 .navbar-custom .nav li a {
   color: white;
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
@@ -76,14 +77,14 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: #0085a1;
+    color: #4b5664;
   }
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover{
-    color: #0085a1;
+    color: #4b5664;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -113,14 +114,14 @@ hr.small {
     color: #ffffff;
   }
   .navbar-custom.is-fixed .navbar-brand:hover {
-    color: #0085a1;
+    color: #4b5664;
   }
   
   .navbar-custom.is-fixed .nav li a:hover {
-    color: #0085a1;
+    color: #4b5664;
   }
 .navbar-custom.is-fixed .nav li a:active{
-    color: #6ec54d;
+    color: #4b5664;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -166,10 +167,10 @@ hr.small {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Georgia', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
   text-shadow: 1px 1px 4px #000;
@@ -190,14 +191,14 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
   text-shadow: 1px 1px 4px #000;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Baghdad', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
   text-shadow: 1px 1px 4px #000;
   font-size: 20px;
@@ -220,7 +221,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #4b5664;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -244,7 +245,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #4b5664;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -255,7 +256,7 @@ hr.small {
 .section-heading {
   font-size: 36px;
   margin-top: 60px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .caption {
   text-align: center;
@@ -324,16 +325,16 @@ footer .copyright {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0085a1;
+  color: #4b5664;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 1px;
   border-radius: 0;
   padding: 15px 25px;
@@ -344,8 +345,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #4b5664;
+  border: 1px solid #4b5664;
   color: white;
 }
 .pager {
@@ -353,10 +354,10 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 1px;
   padding: 10px 5px;
   background-color: black;
@@ -384,12 +385,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #4b5664;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #4b5664;
 }
 img::selection {
   color: white;
@@ -400,7 +401,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+  webkit-tap-highlight-color: #4b5664;
 }
 .fa-stack-2x {
  color: black;

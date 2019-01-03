@@ -3,16 +3,24 @@ layout: gallery-page
 title: Albums
 description: "archive"
 active: gallery
-header-img: "gallery/cover.jpg"
+header-img: "gallery/cover-2.jpg"
 images:
- - image_path: /gallery/Nanjing/1919stone-1
+ - image_path: /gallery/Nanjing/1919stone-1-thumb
    gallery-folder: /gallery/Nanjing/
    gallery-name: Nanjing
-   gallery-date: September 2016
- - image_path: /gallery/NewYork/tower
-   gallery-folder: /gallery/NewYork/
-   gallery-name: New York
-   gallery-date: February 2017
+   gallery-date: 2016 - 2018
+ - image_path: /gallery/Places/sunset-1
+   gallery-folder: /gallery/Places/
+   gallery-name: Places
+   gallery-date: 2016 - Now
+ - image_path: /gallery/People/kyoto
+   gallery-folder: /gallery/People/
+   gallery-name: People
+   gallery-date: 2018 - Now
+ - image_path: /gallery/Eclipse/eclipse-2
+   gallery-folder: /gallery/Eclipse/
+   gallery-name: Eclipse
+   gallery-date: August 2017
 ---
 
 <html class="no-js" lang="en">
@@ -39,7 +47,7 @@ images:
 					<header class='gallery-icon'>
 		       
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-<img src="{{ site.store_url }}{{ site.store_baseurl }}{{ image.image_path }}-thumb.jpg"></a>
+<img src="{{ site.store_url }}{{ site.store_baseurl }}{{ image.image_path }}.jpg"></a>
 
 					</header>	
 					<figcaption class='gallery-caption'>

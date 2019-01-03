@@ -1,0 +1,181 @@
+---
+layout: gallery-page
+title: "Places"
+description: 
+active: gallery
+header-img: "gallery/Places/sunset-1.jpg"
+album-title: "Places"
+album-folder: "gallery/Places"
+copyright: © Heyang Long
+images:
+ - image_name: galaxy
+   caption: 
+   information: Aug 2017 @ Great Smoky Mountains
+ - image_name: NY-1
+   caption: 
+   information: Dec 2018 @ New York City
+ - image_name: NY-2
+   caption: 
+   information: Dec 2018 @ New York City
+ - image_name: NY-3
+   caption: 
+   information: Dec 2018 @ New York City
+ - image_name: NY-4
+   caption: 
+   information: Dec 2018 @ Metropolitan Museum of Art, New York City
+ - image_name: NY-5
+   caption: 
+   information: Dec 2018 @ Buffalo
+ - image_name: NY-3
+   caption: 
+   information: Dec 2018 @ New York City
+ - image_name: Japan-1
+   caption: 
+   information: Jul 2018 @ Kyoto, Japan
+ - image_name: Japan-2
+   caption: 
+   information: Jul 2018 @ Kyoto, Japan
+ - image_name: Japan-3
+   caption: 
+   information: Jul 2018 @ Kyoto, Japan
+ - image_name: sunset-2
+   caption: 
+   information: Aug 2017 @ Pittsburgh
+ - image_name: sunset-3
+   caption: 
+   information: Aug 2017 @ Pittsburgh
+ - image_name: sunset-4
+   caption: 
+   information: Aug 2017 @ Pittsburgh
+ - image_name: sunset-5
+   caption: Cathedral of Learning
+   information: Oct 2017 @ Pittsburgh
+ - image_name: autumn-1
+   caption: 
+   information: Oct 2017 @ Carnegie Mellon University
+ - image_name: autumn-2
+   caption: 
+   information: Oct 2017 @ Pittsburgh
+ - image_name: chongqin-1
+   caption: 
+   information: Jan 2017 @ Chongqin
+ - image_name: chongqin-2
+   caption: 
+   information: Jan 2017 @ Chongqin
+ - image_name: chongqin-3
+   caption: 
+   information: Jan 2017 @ Chongqin
+ - image_name: chongqin-4
+   caption: 
+   information: Jan 2017 @ Chongqin
+ - image_name: chongqin-5
+   caption: 
+   information: Jan 2017 @ Chongqin
+ - image_name: Hangzhou-1
+   caption: 
+   information: Mar 2018 @ West Lake, Hangzhou
+ - image_name: Hangzhou-2
+   caption: 
+   information: Mar 2018 @ West Lake, Hangzhou
+ - image_name: smoky-1
+   caption: 
+   information: Aug 2017 @ Great Smoky Mountains
+ - image_name: smoky-2
+   caption: 
+   information: Aug 2017 @ Great Smoky Mountains
+ - image_name: smoky-3
+   caption: 
+   information: Aug 2017 @ Great Smoky Mountains
+ - image_name: smoky-4
+   caption: 
+   information: Aug 2017 @ Great Smoky Mountains
+ - image_name: smoky-5
+   caption: 
+   information: Aug 2017 @ Great Smoky Mountains
+ - image_name: Thailand
+   caption: 
+   information: Aug 2017 @ Grand Palace, Bangkok, Thailand
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.store_url }}{{ site.store_baseurl }}/{{ page.album-folder }}/{{ image.image_name }}.jpg" class="popup"  title="{{ image.caption }}" data-caption="{{ page.copyright }}">
+<img src="{{ site.store_url }}{{ site.store_baseurl }}/{{ page.album-folder }}/{{ image.image_name }}.jpg"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<h5>{{image.information}}</h5>
+							<h5>{{page.copyright}}</h5>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="/js/modernizr.js"></script>
+
+    
+</body></html>
