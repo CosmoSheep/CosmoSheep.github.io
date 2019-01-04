@@ -38,7 +38,7 @@ plugins_dir:
 
 nav:
   - GALLERY: "/gallery/"  
-  - BLOG: "/blog/"
+  - BLOG: "/blog"
 #  - ABOUT: "https://sunbliss.github.io/photorama/about/"
 
 defaults:
