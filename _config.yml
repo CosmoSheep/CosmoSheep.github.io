@@ -1,5 +1,5 @@
 # Site settings
-title: HE-YANG LONG
+title: HEYANG LONG
 description: Heyang Long's homepage
 url: https://newtanc.github.io
 jsurl: https://github.com/NewTanc/NewTanc.github.io
@@ -8,12 +8,12 @@ permalink: /:title
 # User settings
 username: Heyang Long
 author-pic: face.jpg # your photo
-user_description: Physics graduate student at <a target="_blank" href="https://physics.osu.edu/">Ohio State University</a>. Got my BSc degree in Physics from <a target="_blank" href="https://www.nju.edu.cn/EN/">Nanjing University</a>. Interested in theoretical physics, especially particle physics and cosmology. Lakers fan. A lover of hiking, poem and photography. Extremely good at eating spicy food and <a target="_blank" href="http://image.baidu.com/search/index?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=%E5%9B%9B%E5%B7%9D%E7%81%AB%E9%94%85">Sichuan hot pot</a> is my favorite. 
+user_description: I am a physics graduate student at <a target="_blank" href="https://physics.osu.edu/">Ohio State University</a>, Center for Cosmology and AstroParticle Physics (<a target="_blank" href="https://ccapp.osu.edu">CCAPP</a>). I use powerful tools such as HI 21cm transition, weak gravitational lensing, baryonic acoustic oscillation to theoretically study the large-scale structure and evolution of the Universe under the supervison of <a target="_blank" href="https://hirata10.github.io">Prof. Christopher Hirata</a>.  I received my B.S. at Physics in <a target="_blank" href="https://www.nju.edu.cn/EN/">Nanjing University</a>. In leisure time, I am enthusiastic about photography, stargazing, cooking spicy food and petting my sweet little cat Batian (霸天).
+
 user_title: Physics Student
 email: long.1697@osu.edu
-wechat_username: newtanc
 github_username:  newtanc
-facebook_username: heyanglong
+
 
 # Site Build
 highlighter:        rouge
