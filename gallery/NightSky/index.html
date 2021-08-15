@@ -1,0 +1,106 @@
+---
+layout: gallery-page
+title: "People"
+description: "“The most difficult thing for me is a portrait. You have to try and put your camera between the skin of a person and his shirt.” - Henri Cateir-Bresson"
+active: gallery
+header-img: "gallery/People/chicago-kid.jpg"
+album-title: "People"
+album-folder: "gallery/People"
+copyright: © Heyang Long
+images:
+ - image_name: hjj
+   caption: Xingyue
+   information: Dec 2018 @ Metropolian Museum of Art, New York City
+ - image_name: musician
+   caption: Musicians in the Morning
+   information: Dec 2018 @ New York City
+ - image_name: kyoto
+   caption: 
+   information: Aug 2018 @ Hanamikoji Dori, Kyoto
+ - image_name: chicago-kid
+   caption: 
+   information: Nov 2018 @ Michigan Lake, Chicago
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.store_url }}{{ site.store_baseurl }}/{{ page.album-folder }}/{{ image.image_name }}.jpg" class="popup"  title="{{ image.caption }}" data-caption="{{ page.copyright }}">
+<img src="{{ site.store_url }}{{ site.store_baseurl }}/{{ page.album-folder }}/{{ image.image_name }}.jpg"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<h5>{{image.information}}</h5>
+							<h5>{{page.copyright}}</h5>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="/js/modernizr.js"></script>
+
+    
+</body></html>

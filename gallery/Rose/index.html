@@ -1,0 +1,199 @@
+---
+layout: gallery-page
+title: "Rose"
+description: ""I offer you the memory of a yellow rose seen at sunset, years before you were born." - Jorges Luis Borges"
+active: gallery
+header-img: "gallery/Rose/_MG0005.jpg"
+album-title: "Rose"
+album-folder: "gallery/Rose"
+copyright: © Heyang Long
+images:
+ - image_name: _MG0005
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0015
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0022
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0024
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0034
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0038
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0039
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0050
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0063
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0069
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0075
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0078
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0093
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0099
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0103
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0104
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0105
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0106
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0107
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0110
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0111
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0118
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0123
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG0126
+   caption: 
+   information: Jun 2021 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7808
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7814
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7816
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7822
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7836
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7839
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7842
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7848
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7851
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7852
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+ - image_name: _MG7855
+   caption: 
+   information: Jun 2020 @ Whetstone Park of Roses, Columbus, OH
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.store_url }}{{ site.store_baseurl }}/{{ page.album-folder }}/{{ image.image_name }}.jpg" class="popup"  title="{{ image.caption }}" data-caption="{{ page.copyright }}">
+<img src="{{ site.store_url }}{{ site.store_baseurl }}/{{ page.album-folder }}/{{ image.image_name }}.jpg"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<h5>{{image.information}}</h5>
+							<h5>{{page.copyright}}</h5>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="/js/modernizr.js"></script>
+
+    
+</body></html>
