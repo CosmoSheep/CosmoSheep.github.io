@@ -1,0 +1,160 @@
+---
+layout: gallery-page
+title: "Batian"
+description: "Batian(霸天) is a domestic short-hair white cat, born on 8/12/2019, adopted by me on 3/12/2020 from <a target="_blank" href="https://www.columbushumane.org">COLUMBUS HUMANE"</a>. She is a playful, sweet, sometimes a little bit shy girl. Her name means powerful in Chinese.
+active: gallery
+header-img: "gallery/Batian/_MG_7438.jpg"
+album-title: "Batian"
+album-folder: "gallery/Batian"
+copyright: © Heyang Long
+images:
+ - image_name: _MG_7428.jpg
+   caption: 
+   information: Apr 2020 @ Columbus
+ - image_name: _MG_7432.jpg
+   caption: 
+   information: Apr 2020 @ Columbus
+ - image_name: _MG_7437.jpg
+   caption: 
+   information: Apr 2020 @ Columbus
+ - image_name: _MG_7438.jpg
+   caption: 
+   information: Apr 2020 @ Columbus
+ - image_name: _MG_7439.jpg
+   caption: 
+   information: Apr 2020 @ Columbus
+ - image_name: _MG_7447.jpg
+   caption: 
+   information: Apr 2020 @ Columbus
+ - image_name: _MG_7450.jpg
+   caption: 
+   information: Apr 2020 @ Columbus
+ - image_name: _MG_7455.jpg
+   caption: 
+   information: Apr 2020 @ Columbus
+ - image_name: _MG_7457.jpg
+   caption: 
+   information: Apr 2020 @ Columbus
+ - image_name: _MG_7467.jpg
+   caption: 
+   information: May 2020 @ Columbus
+ - image_name: _MG_7501.jpg
+   caption: 
+   information: May 2020 @ Columbus
+ - image_name: _MG_7647.jpg
+   caption: 
+   information: May 2020 @ Columbus
+ - image_name: _MG_7650.jpg
+   caption: 
+   information: May 2020 @ Columbus
+ - image_name: _MG_7652.jpg
+   caption: 
+   information: May 2020 @ Columbus
+ - image_name: _MG_7653.jpg
+   caption: 
+   information: May 2020 @ Columbus
+ - image_name: _MG_7654.jpg
+   caption: 
+   information: May 2020 @ Columbus
+ - image_name: _MG_7661.jpg
+   caption: 
+   information: May 2020 @ Columbus
+ - image_name: _MG_9751.jpg
+   caption: 
+   information: Feb 2021 @ Columbus
+ - image_name: _MG_9752.jpg
+   caption: 
+   information: Feb 2021 @ Columbus
+ - image_name: _MG_9753.jpg
+   caption: 
+   information: Feb 2021 @ Columbus
+ - image_name: _MG_9756.jpg
+   caption: 
+   information: Feb 2021 @ Columbus
+ - image_name: _MG_9757.jpg
+   caption: 
+   information: Feb 2021 @ Columbus
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.store_url }}{{ site.store_baseurl }}/{{ page.album-folder }}/{{ image.image_name }}.jpg" class="popup"  title="{{ image.caption }}" data-caption="{{ page.copyright }}">
+<img src="{{ site.store_url }}{{ site.store_baseurl }}/{{ page.album-folder }}/{{ image.image_name }}.jpg"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<h5>{{image.information}}</h5>
+							<h5>{{page.copyright}}</h5>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="/js/modernizr.js"></script>
+
+    
+</body></html>
