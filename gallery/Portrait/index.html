@@ -1,0 +1,187 @@
+---
+layout: gallery-page
+title: "Portrait"
+description: "“The most difficult thing for me is a portrait. You have to try and put your camera between the skin of a person and his shirt.” - Henri Cateir-Bresson"
+active: gallery
+header-img: "gallery/Portrait/Hui05.jpg"
+album-title: "Portrait"
+album-folder: "gallery/Portrait"
+copyright: © Heyang Long
+images:
+ - image_name: _MG_0374
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0386
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0392
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0403
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0411
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0433
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0499
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0502
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0507
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0511
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0552
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0567
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0578
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0592
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0608
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0686
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0695
+   caption: Graduation-Shuqi
+   information: Aug 2021 @ OSU, Columbus
+ - image_name: _MG_0736
+   caption: Joey
+   information: Mar 2020 @ OSU, Columbus
+ - image_name: _MG_7062
+   caption: Joey
+   information: Mar 2020 @ OSU, Columbus
+ - image_name: _MG_7063
+   caption: Joey
+   information: Mar 2020 @ OSU, Columbus
+ - image_name: _MG_7065
+   caption: Joey
+   information: Mar 2020 @ OSU, Columbus
+ - image_name: _MG_7067
+   caption: Joey
+   information: Mar 2020 @ OSU, Columbus
+ - image_name: _MG_7073
+   caption: Joey
+   information: Mar 2020 @ OSU, Columbus
+ - image_name: _MG_7077
+   caption: Joey
+   information: Mar 2020 @ OSU, Columbus
+ - image_name: _MG_7085
+   caption: Joey
+   information: Mar 2020 @ OSU, Columbus
+ - image_name: Hui01
+   caption: Guitarist Hui
+   information: Mar 2020 @ Columbus
+ - image_name: Hui02
+   caption: Guitarist Hui
+   information: Mar 2020 @ Columbus
+ - image_name: Hui03
+   caption: Guitarist Hui
+   information: Mar 2020 @ Columbus
+ - image_name: Hui04
+   caption: Guitarist Hui
+   information: Mar 2020 @ Columbus
+ - image_name: Hui05
+   caption: Guitarist Hui
+   information: Mar 2020 @ Columbus
+ - image_name: Hui06
+   caption: Guitarist Hui
+   information: Mar 2020 @ Columbus
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.store_url }}{{ site.store_baseurl }}/{{ page.album-folder }}/{{ image.image_name }}.jpg" class="popup"  title="{{ image.caption }}" data-caption="{{ page.copyright }}">
+<img src="{{ site.store_url }}{{ site.store_baseurl }}/{{ page.album-folder }}/{{ image.image_name }}.jpg"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<h5>{{image.information}}</h5>
+							<h5>{{page.copyright}}</h5>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="/js/modernizr.js"></script>
+
+    
+</body></html>
