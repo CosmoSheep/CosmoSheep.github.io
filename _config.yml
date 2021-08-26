@@ -1,8 +1,8 @@
 # Site settings
 title: Heyang Long
 description: Heyang Long's homepage
-url: https://newtanc.github.io
-jsurl: https://github.com/NewTanc/NewTanc.github.io
+url: https://cosmosheep.github.io
+jsurl: https://github.com/CosmoSheep/cosmosheep.github.io
 permalink: /:title
 
 # User settings
@@ -12,7 +12,7 @@ user_description: I am a physics graduate student at <a target="_blank" href="ht
 
 user_title: Heyang
 email: long.1697@osu.edu
-github_username:  newtanc
+github_username:  CosmoSheep
 
 
 # Site Build
