@@ -84,7 +84,7 @@ updated: 2021-08-30 14:24
 >
 > 这样就很好
 
-<script hidden type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=5-H2x2gKyrr_i2T50a-jvmjd56fobXm77y0O9CZeq8c"></script>
+<!-- <script hidden type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=5-H2x2gKyrr_i2T50a-jvmjd56fobXm77y0O9CZeq8c"></script> -->
 
 
 
