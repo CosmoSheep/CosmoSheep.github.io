@@ -24,8 +24,8 @@ sass:
     style:          :compressed
 
 # Google-analytics
-google-analytics: true
- id: G-SB6S7SZ5MS
+google-analytics: G-SB6S7SZ5MS
+  # id: 
 
 # exclude: ['package.json', 'src' , 'node_modules']
 
