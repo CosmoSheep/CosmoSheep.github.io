@@ -25,7 +25,7 @@ sass:
 
 # Google-analytics
 google-analytics: true
- id: "G-SB6S7SZ5MS"
+ id: G-SB6S7SZ5MS
 
 # exclude: ['package.json', 'src' , 'node_modules']
 
