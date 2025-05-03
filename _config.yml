@@ -8,20 +8,10 @@ permalink: /:title
 # User settings
 username: Heyang Long
 author-pic: face.jpg # your photo
-user_description: |
-  I draw energy from deep thinking and problem solving — most often through research, physics, applied math, and philosophy. Lately, this curiosity has led me toward quantitative finance and AI. From 2018 to 2024, I studied Cosmology with Prof. Christopher Hirata; explore my <a target="_blank" href="https://inspirehep.net/authors/1774798">publications</a> here.  
-  <br><br>
-  I am originally from Sichuan - born with a love and cooking skills for spicy food. My go-to Sichuan spot in NYC is <strong>Lunar</strong>. My favorite university on Earth is Nanjing University. I love exploring mountains — hiking in the summer and snowboarding in the winter.  
-  <br><br>
-  I’m also drawn to visual arts — I spend much of my free time photographing moments and wandering through various museums and galleries in NYC. Earning an art degree is still on my bucket list. I’m also a caffeine-holic — <strong>Devoción</strong> is my favorite coffee shop in NYC.  
-  <br><br>
-  I have a sweet white cat, Batian (霸天), who’s been my companion since 2020.  
-  <br><br>
-  I care deeply about building inclusive spaces for gender minorities and the LGBTQ+ community.  
-  <br><br>
-  If you're ever up for a coffee chat in NYC, feel free to <a href="mailto:hylong1024@gmail.com">reach out</a>.
+user_description: I am a Presidential Fellow and fifth-year graduate student at <a target="_blank" href="https://ccapp.osu.edu">The Ohio State University, Center for Cosmology and AstroParticle Physics (CCAPP)</a>. I work with <a target="_blank" href="https://hirata10.github.io">Prof. Christopher Hirata</a> on a variety of topics in cosmology and astrophysics to study the structure, composition and evolution of the Universe and help the precision measurements of it. I received my B.S. at Physics in <a target="_blank" href="https://www.nju.edu.cn/EN/">Nanjing University</a>. In leisure time, I am enthusiastic about photography, stargazing, cooking spicy food and petting my sweet little cat <a target="_blank", href="/gallery/Batian/">Batian (霸天)</a>.
+
 user_title: Heyang
-email: hylong1024@gmail.com
+email: long.1697@osu.edu
 github_username:  CosmoSheep
 
 
