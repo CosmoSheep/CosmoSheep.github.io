@@ -13,6 +13,17 @@ body {
     padding: 35px 50px;
   }
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
 h2,
 h3,
 h4,
