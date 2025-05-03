@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [PLACEHOLDER] 这个世界的随机性
+title: 【PLACEHOLDER】 这个世界的随机性
 updated: 2025-05-03
 ---
 
