@@ -1,18 +1,28 @@
 # Site settings
-title: HEYANG LONG
+title: Heyang Long
 description: Heyang Long's homepage
-url: https://newtanc.github.io
-jsurl: https://github.com/NewTanc/NewTanc.github.io
+url: https://cosmosheep.github.io
+jsurl: https://github.com/CosmoSheep/cosmosheep.github.io
 permalink: /:title
 
 # User settings
 username: Heyang Long
 author-pic: face.jpg # your photo
-user_description: I am a physics graduate student at <a target="_blank" href="https://physics.osu.edu/">The Ohio State University</a>, <a target="_blank" href="https://ccapp.osu.edu">Center for Cosmology and AstroParticle Physics (CCAPP)</a>. I work with <a target="_blank" href="https://hirata10.github.io">Prof. Christopher Hirata</a> on a variety of topics in cosmology, such as HI 21cm transition, weak gravitational lensing and reionization, to theoretically study the large-scale structure and evolution of the Universe.  I received my B.S. at Physics in <a target="_blank" href="https://www.nju.edu.cn/EN/">Nanjing University</a>. In leisure time, I am enthusiastic about photography, stargazing, cooking spicy food and petting my sweet little cat Batian (霸天).
-
+user_description: |
+  I draw energy from deep thinking and problem solving — most often through research, physics, applied math, and philosophy. Lately, this curiosity has led me toward quantitative finance and AI. From 2018 to 2024, I studied Cosmology with Prof. Christopher Hirata; explore my <a target="_blank" href="https://inspirehep.net/authors/1774798">publications</a> here.  
+  <br><br>
+  I am originally from Sichuan - born with a love and cooking skills for spicy food. My go-to Sichuan spot in NYC is <strong>Lunar</strong>. My favorite university on Earth is Nanjing University. I love exploring mountains — hiking in the summer and snowboarding in the winter.  
+  <br><br>
+  I’m also drawn to visual arts — I spend much of my free time photographing moments and wandering through various museums and galleries in NYC. Earning an art degree is still on my bucket list. I’m also a caffeine-holic — <strong>Devoción</strong> is my favorite coffee shop in NYC.  
+  <br><br>
+  I have a sweet white cat, Batian (霸天), who’s been my companion since 2020.  
+  <br><br>
+  I care deeply about building inclusive spaces for gender minorities and the LGBTQ+ community.  
+  <br><br>
+  If you're ever up for a coffee chat in NYC, feel free to <a href="mailto:hylong1024@gmail.com">reach out</a>.
 user_title: Heyang
-email: long.1697@osu.edu
-github_username:  newtanc
+email: hylong1024@gmail.com
+github_username:  CosmoSheep
 
 
 # Site Build
@@ -24,8 +34,8 @@ sass:
     style:          :compressed
 
 # Google-analytics
-#google-analytics:
-#  id: ""
+google-analytics: G-SB6S7SZ5MS
+  # id: 
 
 # exclude: ['package.json', 'src' , 'node_modules']
 
