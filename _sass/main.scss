@@ -9,9 +9,9 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  @media (min-width: 992px) {
-    padding: 35px 50px;
-  }
+}
+@media (min-width: 992px) {
+  padding: 35px 50px;
 }
 
 html, body {
@@ -19,6 +19,16 @@ html, body {
   padding: 0;
   width: 100%;
   overflow-x: hidden;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 * {
