@@ -6,7 +6,11 @@ updated: 2025-08-17
 
 >前记：
 >
+> &nbsp;
+>
 >This is a placeholder for a new blog, which is expected to be finished by the end of 2025. I will talk about the take-aways from graduate school, the randomness - both mathematically and philosophically I think about the world, and my impression on NYC as a new comer.
+>
+> &nbsp;
 >
 >2025/05/03
 
@@ -59,31 +63,61 @@ updated: 2025-08-17
 >
 >五月将尽
 >
+> &nbsp;
+>
 >连日强光普照
+>
+> &nbsp;
 >
 >一路一路树荫
 >
+> &nbsp;
+>
 >呆滞到傍晚
+>
+> &nbsp;
 >
 >红胸鸟在电线上啭鸣
 >
+> &nbsp;
+>
+> &nbsp;
+>
 >天色舒齐地暗下来
+>
+> &nbsp;
 >
 >那是慢慢地，很慢
 >
+> &nbsp;
+>
 >绿叶藂间的白屋
+>
+> &nbsp;
 >
 >夕阳射亮玻璃
 >
+> &nbsp;
+>
 >草坪湿透，还在洒
+>
+> &nbsp;
 >
 >蓝紫鸢尾花一味梦幻
 >
+> &nbsp;
+>
 >都相约暗下，暗下
+>
+> &nbsp;
 >
 >清晰 和蔼 委婉
 >
+> &nbsp;
+>
 >不知原谅什么
+>
+> &nbsp;
 >
 >诚觉世事尽可原谅
 > 
@@ -107,6 +141,6 @@ updated: 2025-08-17
 > 别人眼中的你，不是真的你。你眼中的自己，也不是真的你。你眼中的别人，才是真正的你。
 >
 
-&emsp;&emsp;我发现夏天结束时总是伴随着许多故事的发生和告别，我最好的回忆都在夏天了。夏夜的晚风中，我会对着我的那些灵魂碎片发呆。在这个充满随机性的世界上，我们并不总能等到碎片归还的那天。而光在那里，温一盏茶，时常想念。
+&emsp;&emsp;我发现夏天结束时总是伴随着许多故事的发生和告别，我最好的回忆都在夏天了。夏夜的晚风中，我会对着我的那些灵魂碎片发呆。在这个充满随机性的世界上，我们并不总能等到碎片归还的那天。而光在那里，再温一盏茶，时常想念。
 
 08/17/2025
