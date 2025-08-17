@@ -5,9 +5,9 @@ updated: 2025-08-17
 ---
 
 >前记：
-This is a placeholder for a new blog, which is expected to be finished by the end of 2025. I will talk about the take-aways from graduate school, the randomness - both mathematically and philosophically I think about the world, and my impression on NYC as a new comer.
+>This is a placeholder for a new blog, which is expected to be finished by the end of 2025. I will talk about the take-aways from graduate school, the randomness - both mathematically and philosophically I think about the world, and my impression on NYC as a new comer.
 >2025/05/03
->
+
 
 &emsp;&emsp;**全文约 7,000 字，预计阅读时长 20 分钟。本文经过AI润色。**
 
