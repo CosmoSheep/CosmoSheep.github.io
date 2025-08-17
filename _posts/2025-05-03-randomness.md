@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 【PLACEHOLDER】 这个世界的随机性
-updated: 2025-05-03
+title: 这个世界的随机性
+updated: 2025-08-17
 ---
 
 >前记：
