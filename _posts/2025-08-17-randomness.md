@@ -21,7 +21,7 @@ updated: 2025-08-17
 
 &emsp;&emsp;我想起来我这里也有一份灵魂碎片——我后来学物理，有一半的原因要来自于高中时很喜欢物理课和物理老师，我在毕业论文的致谢里提到了这回事
 
-> I would like to thank my high school physics teacher Chaolun Luo - also thanks to the expansion of the Universe, the small perturbations he seeded on our blackboard expand to a few solid scientific research I have done in this thesis.
+> I would like to thank my high school physics teacher Mr. Luo - also thanks to the expansion of the Universe, the small perturbations he seeded on our blackboard expand to a few solid scientific research I have done in this thesis.
 
  <br><br>
 
